@@ -1,0 +1,17 @@
+#:schema https://docs.jj-vcs.dev/latest/config-schema.json
+
+[user]
+name = "Hashory"
+email = "89839285+Hashory@users.noreply.github.com"
+
+[working-copy]
+# No EOL conversion. Similar to core.autocrlf = false.
+eol-conversion = "none"
+
+[ui]
+editor = "micro"
+
+[aliases]
+newai = ["util", "exec", "--", "jj-newai"]
+ai-clean = ["util", "exec", "--", "jj-ai-clean"]
+bk = ["bookmark"]

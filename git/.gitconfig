@@ -1,0 +1,12 @@
+[user]
+	email = 89839285+Hashory@users.noreply.github.com
+	name = Hashory
+[core]
+	autocrlf = false
+	editor = micro
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential

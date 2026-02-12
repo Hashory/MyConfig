@@ -1,0 +1,11 @@
+[git]
+files = { "git/.gitconfig" = "~/.gitconfig" }
+
+[jj]
+files = { "jj/config.toml" = "~/.config/jj/config.toml" }
+
+[micro]
+files = { "micro/settings.json" = "~/.config/micro/settings.json", "micro/bindings.json" = "~/.config/micro/bindings.json" }
+
+[cargo]
+files = { "cargo/config.toml" = "~/.cargo/config.toml" }
