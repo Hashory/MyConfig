@@ -1,0 +1,40 @@
+// Place your key bindings in this file to override the defaults
+[
+	{
+		"key": "ctrl+i",
+		"command": "-cloudcode.duetAI.showinEditor",
+		"when": "authLoggedIn && config.geminicodeassist.enable && editorTextFocus && shouldRegisterInEditorCommand && !inGeminiDiffView && !isInDiffEditor"
+	},
+	{
+		"key": "alt+d",
+		"command": "-_cloudcode.duetAI.codelens.reject",
+		"when": "authLoggedIn && cloudcode.duetAI.documentMatch && config.geminicodeassist.enable && inGeminiDiffView && isInDiffEditor"
+	},
+	{
+		"key": "alt+a",
+		"command": "-_cloudcode.duetAI.codelens.accept",
+		"when": "authLoggedIn && cloudcode.duetAI.documentMatch && config.geminicodeassist.enable && inGeminiDiffView && isInDiffEditor"
+	},
+	{
+		"key": "ctrl+q",
+		"command": "-workbench.action.quickOpenNavigateNextInViewPicker",
+		"when": "inQuickOpen && inViewsPicker"
+	},
+	{
+		"key": "ctrl+q",
+		"command": "-workbench.action.quickOpenView"
+	},
+	{
+		"key": "ctrl+q",
+		"command": "workbench.action.closeWindow"
+	},
+	{
+		"key": "ctrl+shift+w",
+		"command": "-workbench.action.closeWindow"
+	},
+	{
+		"key": "ctrl+alt+v",
+		"command": "-extension.pasteImage",
+		"when": "editorTextFocus"
+	}
+]

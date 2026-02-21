@@ -17,4 +17,4 @@ includes = []
 # ---------------------------------------------------------------------
 # Specify the package names defined in `global.toml` as an array.
 # List only the packages you want to enable on this machine.
-packages = ["git", "jj", "micro", "cargo"]
+packages = ["git", "jj", "micro", "cargo", "vscode", "antigravity", "cursor"]

@@ -9,3 +9,12 @@ files = { "micro/settings.json" = "~/.config/micro/settings.json", "micro/bindin
 
 [cargo]
 files = { "cargo/config.toml" = "~/.cargo/config.toml" }
+
+[vscode]
+files = { "vscode/settings.json" = "~/.config/Code/User/settings.json", "vscode/keybindings.json" = "~/.config/Code/User/keybindings.json" }
+
+[antigravity]
+files = { "antigravity/settings.json" = "~/.config/Antigravity/User/settings.json", "antigravity/keybindings.json" = "~/.config/Antigravity/User/keybindings.json" }
+
+[cursor]
+files = { "cursor/settings.json" = "~/.config/Cursor/User/settings.json", "cursor/keybindings.json" = "~/.config/Cursor/User/keybindings.json" }

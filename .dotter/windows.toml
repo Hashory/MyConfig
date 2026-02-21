@@ -1,2 +1,11 @@
 [jj]
 files = { "jj/config.toml" = "~/AppData/Roaming/jj/config.toml" }
+
+[vscode]
+files = { "vscode/settings.json" = "~/AppData/Roaming/Code/User/settings.json", "vscode/keybindings.json" = "~/AppData/Roaming/Code/User/keybindings.json" }
+
+[antigravity]
+files = { "antigravity/settings.json" = "~/AppData/Roaming/Antigravity/User/settings.json", "antigravity/keybindings.json" = "~/AppData/Roaming/Antigravity/User/keybindings.json" }
+
+[cursor]
+files = { "cursor/settings.json" = "~/AppData/Roaming/Cursor/User/settings.json", "cursor/keybindings.json" = "~/AppData/Roaming/Cursor/User/keybindings.json" }
