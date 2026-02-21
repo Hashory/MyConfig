@@ -18,3 +18,6 @@ files = { "antigravity/settings.json" = "~/.config/Antigravity/User/settings.jso
 
 [cursor]
 files = { "cursor/settings.json" = "~/.config/Cursor/User/settings.json", "cursor/keybindings.json" = "~/.config/Cursor/User/keybindings.json" }
+
+[bash]
+files = { "bash/.bashrc" = "~/.bashrc", "bash/.profile" = "~/.profile", "bash/.bash_logout" = "~/.bash_logout" }
