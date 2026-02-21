@@ -9,3 +9,6 @@ files = { "antigravity/settings.json" = "~/AppData/Roaming/Antigravity/User/sett
 
 [cursor]
 files = { "cursor/settings.json" = "~/AppData/Roaming/Cursor/User/settings.json", "cursor/keybindings.json" = "~/AppData/Roaming/Cursor/User/keybindings.json" }
+
+[powershell]
+files = { "powershell/Microsoft.PowerShell_profile.ps1" = "~/Documents/PowerShell/Microsoft.PowerShell_profile.ps1" }
