@@ -1,2 +1,0 @@
-includes = []
-packages = ["git", "jj", "micro", "cargo"]
